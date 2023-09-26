@@ -10,11 +10,12 @@ A simple Slack bot build on Bolt framework (https://slack.dev/bolt-python) and p
 
 ## Configure
 
-Create `config.env` in project root with your API key:
+Create `config.file` in project root with your API key:
 
 ```
 SLACK_BOT_TOKEN={MY_SECRET_TOKEN_THAT_I_NEVER_EXPOSE}
 SLACK_SIGNING_SECRET={MY_SECRET_TOKEN_THAT_I_NEVER_EXPOSE}
+OPENAI_API_KEY={MY_SECRET_TOKEN_THAT_I_NEVER_EXPOSE}
 ```
 
 ## Start
